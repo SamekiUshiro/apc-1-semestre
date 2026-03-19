@@ -23,21 +23,21 @@
         printf("      BOLETIM DE NOTAS\n");
         printf("=============================\n");
         printf("Disciplina     A1  A2  A3  MF\n");
-        printf("APC1           %.1f  %.1f  %.1f  %.1f\n", nota_a1, nota_a2, nota_a3, media_final);
+        printf("APC1           %5.1f  %5.1f  %5.1f  %5.1f\n", nota_a1, nota_a2, nota_a3, media_final);
 
         nota_a1 = 4.2f;
         nota_a2 = 3.0f;
         nota_a3 = 1.0f;
         media_final = 4.0f;
 
-        printf("MD             %.1f  %.1f  %.1f  %.1f\n", nota_a1, nota_a2, nota_a3, media_final);
+        printf("MD             %5.1f  %5.1f  %5.1f  %5.1f\n", nota_a1, nota_a2, nota_a3, media_final);
 
         nota_a1 = 9.0f;
-        nota_a2 = 1.0f;
+        nota_a2 = 10.0f;
         nota_a3 = 2.0f;
         media_final = 5.0f;
 
-        printf("CALC1          %.1f  %.1f  %.1f  %.1f\n", nota_a1, nota_a2, nota_a3, media_final);
+        printf("CALC1          %5.1f  %5.1f  %5.1f  %5.1f\n", nota_a1, nota_a2, nota_a3, media_final);
 
         return 0;
     }
