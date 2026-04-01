@@ -14,7 +14,7 @@ int main(){
     printf("%-23s %.2f\n","Total",229.85);
 
 
-
+    
 
     return 0;
 }
